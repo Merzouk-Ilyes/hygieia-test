@@ -45,7 +45,7 @@ body{
 }
 
 form{
-	width: 600px;
+	width: 520px;
     padding:100px 0;
 	margin-bottom: 10px;
 }
@@ -70,8 +70,8 @@ form{
 .input-field {
 	max-width: 650px;
 	width: 100%;
-	background-color: #d6e2ea;
-	opacity: 35%;
+	background-color: #F4F6F7;
+	
 	margin: auto;
 	height: 55px;
 	border-radius: 20px;
@@ -81,7 +81,7 @@ form{
   
   .input-field i {
 	line-height: 55px;
-	color: black;
+	color: #B3B6B7;
 	font-size: 1.3rem;
 	margin: auto;
   }
@@ -100,7 +100,7 @@ form{
   }
   
   .input-field input::placeholder {
-	color: black;
+	color: #B3B6B7;
 	font-weight: 400;
 	font-size: 1rem;
   }
@@ -120,9 +120,16 @@ a{
 	text-align: right;
 	text-decoration: none;
 	color:black;
-	font-size: 0.7rem;
+	font-size: 0.9rem;
 	transition: .3s;
 }
+/* input, select, textarea{
+    color : black;
+}
+
+textarea:focus, input:focus {
+    color: black;
+} */
 a:hover{
 	color: #1b38a5 ;
 }
