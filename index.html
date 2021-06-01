@@ -42,11 +42,15 @@
               </div>
               <div class="data">
                 <label>Sexe du médecin</label>
-                <input type="email" required />
+                <input type="text" list="sexe"  required />
+                <datalist id="sexe">
+                  <option value="Homme">Homme</option>
+                  <option value="Femme">Femme</option>
+                </datalist>
               </div>
               <div class="data">
                 <label>Numéro de téléphone du médecin</label>
-                <input type="email" required />
+                <input type="number" required />
               </div>
               <div class="data">
                 <label>Email</label>
@@ -54,11 +58,17 @@
               </div>
               <div class="data">
                 <label>Mot de passe</label>
-                <input type="email" required />
+               <div class="input-field">
+                <input type="password" id="password" required />
+                <i class="fi-rr-eye" id="eye"></i>
+              </div>
               </div>
               <div class="data">
                 <label>Confirmer mot de passe</label>
-                <input type="email" required />
+                <div class="input-field">
+                  <input type="password" id="confirmer" required />
+                  <i class="fi-rr-eye" id="eye2"></i>
+                </div>
               </div>
             </form>
           </div>

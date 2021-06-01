@@ -141,7 +141,7 @@ form .data label {
   bottom: 80px;
   width: 420px;
   height: 26px; 
- opacity: .3;
+  opacity: .3;
   border-top-left-radius: 100% 200%;  
   border-top-right-radius: 100% 200%; 
   border-bottom: 0;
@@ -149,3 +149,31 @@ form .data label {
   
 
 }
+
+.input-field{
+  display: grid;
+  max-width: 650px;
+	width: 100%;
+	background-color: #f6f2f2;
+	margin: auto;
+	height: 100%;
+	border-radius: 20px;
+	grid-template-columns: 90% 10%;
+	position: relative;
+}
+
+
+.input-field i {
+	line-height: 55px;
+	color:#B3B6B7;
+  background-color: #f6f2f2;
+	font-size: 1.3rem;
+	margin: auto;
+  right: 10px;
+  position: relative;
+  }
+
+  #eye  ,#eye2{
+	  cursor: pointer;
+  }
+ 
